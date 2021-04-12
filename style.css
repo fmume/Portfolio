@@ -1,5 +1,7 @@
+
+/* affects the entire content in the body */
 body {
- font-family: 'Poppins', sans-serif;
+ font-family: 'Poppins', sans-serif;  
  background: ivory;
 }
 
@@ -13,7 +15,7 @@ header {
     font-size: 32px;
 }
 
-ul {
+.inline { /* class for ul in the heading*/
     display: flex;
     list-style-type: none;
     width: 500px;
@@ -26,9 +28,10 @@ ul {
 li {
     text-decoration: none;
 }
+ 
 
 h1 {
-    font-size: 90px;
+    font-size: 32px;
     margin: 0;
 }
 
@@ -75,6 +78,14 @@ p {
 .button:active {
     background-color: #A9A9A9;
     color: #808080;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.intro {
+    margin-top: 40px;
 }
 
 .socials {
@@ -125,6 +136,8 @@ footer {
     text-align: center;
     padding: 80px;
 }
+
+/* CSS for the html contact page */
 
 .contact-page {
     margin: 0;
