@@ -28,6 +28,15 @@ header {
 li {
     text-decoration: none;
 }
+
+.list:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.list:active {
+    color: blueviolet;
+}
  
 
 h1 {
