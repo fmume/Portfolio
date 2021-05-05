@@ -97,6 +97,10 @@ ul {
     margin-top: 40px;
 }
 
+.ul-head {
+    font-size: 16px;
+}
+
 .socials {
     padding-bottom: 200px;
     display: flex;
