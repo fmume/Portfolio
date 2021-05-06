@@ -147,11 +147,19 @@ a {
     text-decoration: none;
 }
 
+hr {
+    opacity: 0.1;
+}
+
 
 
 footer {
     text-align: center;
     padding: 80px;
+}
+
+.email {
+    font-size: small;
 }
 
 /* CSS for the html contact page */
